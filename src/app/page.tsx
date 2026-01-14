@@ -268,7 +268,7 @@ export default function App() {
                 {/* Fallback pattern if image is missing */}
                 <div className="absolute inset-0 bg-gray-200 animate-pulse -z-10"></div>
                 <img 
-                  src="https://images.unsplash.com/photo-1628744876497-eb30460be9f6?auto=format&fit=crop&q=80&w=800" 
+                  src="unnamed.jpg" 
                   alt="Interior Plafon PVC Modern" 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   onError={(e) => {
@@ -299,12 +299,12 @@ export default function App() {
             <div className="relative order-2 lg:order-1">
                <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-4">
-                    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=400" className="rounded-3xl shadow-lg w-full h-64 object-cover" alt="Construction worker" />
-                    <img src="https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&q=80&w=400" className="rounded-3xl shadow-lg w-full h-48 object-cover translate-x-4" alt="Interior work" />
+                    <img src="unnamed (1).jpg" className="rounded-3xl shadow-lg w-full h-64 object-cover" alt="Construction worker" />
+                    <img src="plafon3.jpg" className="rounded-3xl shadow-lg w-full h-48 object-cover translate-x-4" alt="Interior work" />
                   </div>
                   <div className="pt-12 space-y-4">
-                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=400" className="rounded-3xl shadow-lg w-full h-48 object-cover -translate-x-4" alt="Detailed work" />
-                    <img src="https://images.unsplash.com/photo-1621905252507-b354bcadcabc?auto=format&fit=crop&q=80&w=400" className="rounded-3xl shadow-lg w-full h-64 object-cover" alt="Ceiling finished" />
+                    <img src="plafon2.jpg" className="rounded-3xl shadow-lg w-full h-48 object-cover -translate-x-4" alt="Detailed work" />
+                    <img src="unnamed (2).jpg" className="rounded-3xl shadow-lg w-full h-64 object-cover" alt="Ceiling finished" />
                   </div>
                </div>
                <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-blue-50 rounded-full blur-3xl opacity-50 scale-75"></div>
